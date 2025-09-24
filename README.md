@@ -1,1 +1,159 @@
-# project-annual-IBL
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="About.html">
+    <link rel="stylesheet" href="CONTACT US.html">
+    <meta image="your-logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islamic Books.library</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="icon" href="website logo.png" type="image/png">
+    <!-- Add Font Awesome below -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        /* Add this to your CSS file or inside a <style> tag in <head> */
+        .logo-unique {
+          height: 48px;
+          width: 48px;
+          object-fit: cover;
+          border-radius: 50%;         /* Makes it a circle */
+          box-shadow: 0 2px 8px rgba(213, 197, 72, 0.973); /* Green shadow */
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #126c4a;" data-bs-theme="light">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="website logo.png" alt="Website Logo" class="logo-unique" style="margin-right:12px;">
+      <span style="font-family: 'Poppins', Arial, sans-serif; font-weight: bold; font-size: 2rem; color: #ffc107;">
+        Islamic <span style="color: #417944;">Books.library</span>
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.project 1111.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="CONTACT US.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <!-- Search form starts here -->
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search books..." aria-label="Search">
+        <button class="btn btn-outline-warning" type="submit">Search</button>
+      </form>
+      <!-- Search form ends here -->
+    </div>
+  </div>
+</nav>
+<br>
+<br>
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="books shelf.jpg" class="d-block w-100" alt="..." width="500px" height="600px">
+    </div>
+    <div class="carousel-item">
+      <img src="islamic books 7.jpg" class="d-block w-100" alt="..." width="500px" height="600px">
+    </div>
+    <div class="carousel-item">
+      <img src="islamic books 8.jpg" class="d-block w-100" alt="..." width="500px" height="600px">
+    </div>
+    <div class="carousel-item">
+      <img src="islamic books 9.jfif" class="d-block w-100" alt="..." width="500px" height="600px">
+    </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+
+<div class="container p-5">
+    <h1>
+    Our Popular Books
+    </h1>
+    <br><br>
+    <!-- card 01 -->
+    <div class="row justify-content-center">
+<div class="col-md-4 mb-4">    
+<div class="card" style="width: 10rem; height:25rem;">
+  <img src="Screenshot (21).png" class="card-img-top" alt="..." width="40px" height="200px">
+   <div class="card-body">
+    <h5 class="card-title">Noorani salaam</h5>
+    <p class="card-text"> salaam book </p>
+    <a href="https://drive.google.com/file/d/153tGWbPgpvpMg58yabC1QmC4FzaMxEaB/view?usp=sharing" 
+    target="_blank" class="btn btn-primary" style="background-color: #417944;">click to read</a>
+  </div>
+</div>
+</div>
+
+<!-- card 02 -->
+<div class="col-md-4 mb-4">
+  <div class="card" style="width: 10rem; height:25rem;">
+  <img src="Screenshot (18).png" class="card-img-top" alt="..." width="40px" height="200px">
+  <div class="card-body">
+    <h5 class="card-title">Qaseedah-al-Burdah_Imam busiri</h5>
+    <p class="card-text"></p>
+    <a href="https://drive.google.com/file/d/1b-oERNFKcLEKxwwke8GInrgxX09Tq6Cg/view?usp=sharing" 
+    target="_blank" class="btn btn-primary" style="background-color: #efef8ee5;">click to read</a>
+  </div>
+</div>
+</div>
+<!-- card 03 -->
+<div class="col-md-4 mb-4">
+  <div class="card" style="width: 10rem; height:25rem;">
+  <img src="islamic images 5.jpg" class="card-img-top" alt="..." width="40px" height="200px">
+  <div class="card-body">
+    <h5 class="card-title">quran kareem</h5>
+    <p class="card-text"> quraan kareem 15 lines</p>
+    <a href="https://drive.google.com/file/d/1dzeYxQsOSkUs8NFz7kyKVqQz0ltqMO14/view?usp=sharing"
+     target="_blank" class="btn btn-primary" style="background-color: #240202ab;">click to read</a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<footer class="bg-dark text-light text-center py-4 mt-5">
+  <div class="footer-content">
+    <div class="footer-links mb-3">
+      <a href="index.html" class="text-light me-3">Home</a>
+      <a href="about.html" class="text-light me-3">About Us</a>
+      <a href="contact.html" class="text-light me-3">Contact Us</a>
+    </div>
+    <div class="footer-icons mb-3">
+      <a href="https://www.facebook.com/share/172KMKwTKV/" title="Facebook" class="text-light me-3" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://instagram.com/" title="Instagram" class="text-light me-3" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://x.com/" title="X (Twitter)" class="text-light me-3" target="_blank"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://wa.me/+918309112608" title="WhatsApp" class="text-light me-3" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="tel:+918309112608" title="Call Us" class="text-light me-3"><i class="fa fa-phone"></i></a>
+      <a href="https://goo.gl/maps/yourlocation" title="Location" class="text-light me-3" target="_blank"><i class="fa fa-map-marker-alt"></i></a>
+    </div>
+    <h6 class="mb-0">&copy; 2025 Islamic Boox.Library. All rights reserved.</h6>
+  </div>        
+
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    
+</body>
+
+</html># project-annual-IBL
