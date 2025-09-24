@@ -1,0 +1,201 @@
+<head>
+    <link rel="stylesheet" href="about.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About us</title>
+  <link rel="stylesheet" href="{% static 'about.css' %}" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="icon" href="{% static 'PICO-LOGO-SHORT.png' %}" type="image/gif">
+  <link rel="stylesheet" href="About.html">
+    <meta image="images/your-logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islamic Book.library</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="icon" href="images/website logo.png" type="image/png">
+    <!-- Add Font Awesome below -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        /* Add this to your CSS file or inside a <style> tag in <head> */
+        .logo-unique {
+          height: 48px;
+          width: 48px;
+          object-fit: cover;
+          border-radius: 50%;         /* Makes it a circle */
+          box-shadow: 0 2px 8px rgba(213, 197, 72, 0.973); /* Green shadow */
+        }
+        
+    </style>
+</head>
+
+<body>
+     <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #126c4a;" data-bs-theme="light">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="images/website logo.png" alt="Website Logo" class="logo-unique" style="margin-right:12px;">
+      <span style="font-family: 'Poppins', Arial, sans-serif; font-weight: bold; font-size: 2rem; color: #ffc107;">
+        Islamic <span style="color: #417944;">Book.library</span>
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.project 1111.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="CONTACT US.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <!-- Search form starts here -->
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search books..." aria-label="Search">
+        <button class="btn btn-outline-warning" type="submit">Search</button>
+      </form>
+      <!-- Search form ends here -->
+    </div>
+  </div>
+</nav>
+  <!-- -----------------------------------------------company---------------------------------------------------------------- -->
+  <div class="company">
+    <div class="img">
+      <img src="images/website logo.png" height="600px" width="300px" />
+    </div>
+    <div class="company-info">
+      <span>BOOKS<span class="our">FOR EVERYONE</span></span>
+      <p>
+        <b>islamic books.library</b> is a India-based website dedicated for sharing stock books under the Islamic books library . Islamic books library allows
+        book-authors to upload thier books to its website, which are then curated by a team of books editors. In Islamic books library we are
+        aspiring to be one of the largest book suppliers on the internet.
+      </p>
+      <span>OUR<span class="our">AIM</span></span>
+      <P>To provide a diverse range of Islamic literature to readers worldwide.</P>
+    </div>
+  </div>
+  <!-- ---------------------------------------------------------------------------------------------------------------------- -->
+  <!-- ----------------------------------------------------team-------------------------------------------------------------- -->
+  <div class="team"><span>OUR TEAM</span></div>
+  <div class="container">
+    <div class="card">
+      <div class="card-image loading"><img src="images/nomaan.jpeg" alt="" width="100%" height="80%" /></div>
+      <div class="card-info">
+        <h3 class="card-title loading"><span>muhammed mahmood <span class="yellow-surname">hussain</span></span></h3>
+        <p class="card-description loading">
+          <span class="personal-info">
+            <span class="info">Graphic Designing Head</span> <br>
+            Pursuing B.Com (Computers) <br>
+            Email: <a href="mailto:'n6231204@gmail.com'">n6231204gmail.com</a>
+          </span>
+        </p>
+        <div class="card-mediaIcons">
+          <a href="#" class="loading" target="on_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="{% url 'viewprofile' 7 %}" class="loading" target="on_blank"><i><img
+                src="https://raw.githubusercontent.com/pico-india/main-django/main/static/PICO-LOGO-SHORT.png" alt="IBL"></a></i>
+          <a href="https://www.instagram.com/yashfalke77/" class="loading" target="on_blank"><i
+              class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image loading"><img src="images/wafaullah.jpeg" alt="" width="100%" height="80%" /></div>
+      <div class="card-info">
+        <h3 class="card-title loading"><span>muhammed wafaullah <span class="yellow-surname">Rifquan</span></span></h3>
+        <p class="card-description loading">
+          <span class="personal-info">
+            <span class="info">Web Developing Head</span> <br>
+            Pursuing front end developmen (AIE hyderabad) <br>
+            Email: <a href="mailto:'rifquanquadri7@gmail.com'">rifquanquadri7@gmail.com</a>
+          </span>
+        </p>
+        <div class="card-mediaIcons">
+          <a href="#" class="loading" target="on_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="{% url 'viewprofile' 7 %}" class="loading" target="on_blank"><i><img
+                src="https://raw.githubusercontent.com/pico-india/main-django/main/static/PICO-LOGO-SHORT.png" alt="Pico"></i></a>
+          <a href="https://www.instagram.com/rifquanquadri7?igsh=ZDdtamhmbDByNzY4" class="loading" target="on_blank"><i
+              class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- <div class="card">
+      <div class="card-image loading"><img src="https://images.pexels.com/photos/837358/pexels-photo-837358.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" /></div>
+      <div class="card-info">
+        <h3 class="card-title loading"><span>Nikhil <span class="yellow-surname">Jaiswal</span></span></h3>
+        <p class="card-description loading">
+          <span class="personal-info">
+            <span class="info">Marketing and Publicity Head</span> <br>
+            Pursuing IT Engineering (VIT Mumbai) <br>
+            Email: <a href="mailto:'nikjaiswal21@gmail.com'">nikjaiswal21@gmail.com</a>
+          </span> -->
+        <!-- </p>
+        <div class="card-mediaIcons">
+          <a href="#" class="loading" target="on_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="{% url 'viewprofile' 6 %}" class="loading" target="on_blank"><i><img
+                src="https://raw.githubusercontent.com/pico-india/main-django/main/static/PICO-LOGO-SHORT.png" alt="Pico"></a></i>
+          <a href="#" class="loading" target="on_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div> -->
+  </div>
+  <!-- ----------------------------------------footer------------------------------------------ -->
+  <footer>
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          <span class="logo_name">islamic books.library</span>
+        </div>
+        <div class="media-icons">
+          <a target="on_blank" href="https://www.facebook.com/share/172KMKwTKV/"><i class="fab fa-facebook"></i></a>
+          <a target="on_blank" href="https://www.instagram.com/rifquanquadri7?igsh=ZDdtamhmbDByNzY4"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="link-boxes">
+        <ul class="box">
+          <li class="link_name">Links</li>
+          <li><a href="{% url 'home' %}">Home</a></li>
+          <li><a href="{% url 'about' %}">About Us</a></li>
+          <li><a href="{% url 'upload' %}">Submit Photo</a></li>
+
+        </ul>
+        <ul class="box">
+          <li class="link_name">Recommended</li>
+          <li><a href="{% url 'category' 6 %}">India</a></li>
+          <li><a href="{% url 'category' 5 %">Art and Culture</a></li>
+          <li><a href="{% url 'category' 11 %">People</a></li>
+          <li><a href="{% url 'category' 2 %">Travel</a></li>
+
+        </ul>
+        
+        <ul class="box">
+          <li class="link_name">Contact</li>
+          <li><a target="on_blank" href="tel:+918143160843">+91 8143160843</a></li>
+          <li><a target="on_blank" href="mailto:rifquanquadri7@gmail.com">rifquanquadri7@gmail.com</a></li>
+        </ul>
+        <ul class="box input-box">
+          <li class="link_name">Subscribe</li>
+          <li><input type="text" placeholder="Enter your email" /></li>
+          <li><input type="button" value="Subscribe" /></li>
+      </div>
+    </div>
+
+    <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text">Copyright © 2025 <a href="index.project 1111.html">islamic books.library</a></span>
+      </div>
+    </div>
+  </footer>
+  <!-- ---------------------------------------------------------------------------------------- -->
+  <!-- -------------------------------------------------------------------------------------------- -->
+<script src="about.js"></script>
+</body>
+</html>
